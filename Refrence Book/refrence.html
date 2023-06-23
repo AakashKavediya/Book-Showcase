@@ -2,7 +2,22 @@
 <html>
 
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Passero+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&family=Passero+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@1,500&family=Kavoon&family=Passero+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@1,500&family=Kavoon&family=Passero+One&family=Sofia+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+
     <title>Book Search</title>
+    <link rel="stylesheet" href="refrence.css">
     <style>
         #searchInput {
             width: 300px;
@@ -10,25 +25,37 @@
         }
         
         #searchResults {
-            margin-top: 10px;
+            /* margin-top: 100px; */
+            font-family: 'Sofia Sans', sans-serif;
+            font-size: 10px;
+            color: gray;
         }
         
         .book-result {
-            margin-bottom: 5px;
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid gray;
+            border-radius: 10px;
         }
         
         .book-title {
             font-weight: bold;
+            font-family: 'Anybody', cursive;
+            font-size: 15px;
+            color: black;
         }
     </style>
 
 </head>
 
 <body>
-    <h1>Book Search</h1>
-    <input type="text" id="searchInput" placeholder="Search books..." onkeyup="searchBooks()">
-    <div id="searchResults"></div>
-    <script src="refrence.js"></script>
+    <section>
+        <header>Rao Live</header>
+        <h1>Book Search</h1>
+        <input type="text" id="searchInput" placeholder="Search books..." onkeyup="searchBooks()">
+        <div id="searchResults"></div>
+        <script src="refrence.js"></script>
+    </section>
 </body>
 
 </html>
