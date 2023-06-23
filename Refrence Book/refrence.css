@@ -49,3 +49,9 @@ section input {
     margin-top: 6px;
     margin-bottom: 6px;
 }
+
+@media(max-width:680px) {
+    section {
+        width: 100%;
+    }
+}
