@@ -24,6 +24,11 @@ var books = [
     title: "Optics and Modern Physics",
     author: "DC Pandey",
     pdf: "https://drive.google.com/file/d/1I4r8ykLCrQGagn4Vg78E0YttJfFTTl8Y/view?usp=drive_link"
+  },
+  {
+    title: "IE Irodov",
+    author: "IE Irodov",
+    pdf: "https://drive.google.com/file/d/1y-SzJzaPvQ16KG496dsJa2EgfrsBJQuQ/view?usp=drive_link"
   }
 ];
 
