@@ -44,12 +44,12 @@ var books = [
     title: "GRB OP Tandon Inorganic",
     author: "Tandon",
     pdf: "https://drive.google.com/file/d/1EG-ar5FhVfuEI2ecNrdep1nMqr3FqdcV/view?usp=drive_link"
-  },,
+  },
   {
     title: "GRB OP Tandon Organic",
     author: "Tandon",
     pdf: "https://drive.google.com/file/d/1EFoyqcDyY9g37FBJfL6ELwMSyL1sfFrG/view?usp=drive_link"
-  },,
+  },
   {
     title: "GRB OP Tandon Physical",
     author: "Tandon",
@@ -59,12 +59,12 @@ var books = [
     title: "RK Gupta-Oragnic",
     author: "RK Gupta",
     pdf: "https://drive.google.com/file/d/103Vtrgl3xSWfs_rpWjijSu-mFX3-NieM/view?usp=drive_link"
-  },,
+  },
   {
     title: "RK Gupta-Inoragnic",
     author: "RK Gupta",
     pdf: "https://drive.google.com/file/d/107A6pxy_rNbO4jyiFBitR9gWvbExMY04/view?usp=drive_link"
-  },,
+  },
   {
     title: "RK Gupta-Physical",
     author: "RK Gupta",
